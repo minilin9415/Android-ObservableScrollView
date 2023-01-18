@@ -14,6 +14,6 @@ elif [ "$TEST_TARGET" = "website" ]; then
     echo "Update website..."
     pushd website > /dev/null 2>&1
     npm run deploy
-    popd > /dev/null 2>&1
+    popd > /dev/null 2>&1774
   fi
 fi
